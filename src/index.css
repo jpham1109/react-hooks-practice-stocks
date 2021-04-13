@@ -1,5 +1,8 @@
 h1 {
   padding: 2rem;
+  margin-right: 0.5rem;
+  color: transparent;
+  text-shadow: 0 0 0 midnightblue;
 }
 
 h2 {
@@ -10,10 +13,21 @@ h2 {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  border: dotted;
 }
 
 .list-group {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+
+.input {
+  width: 90%;
+  font-size: 1rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 0.5rem;
 }
