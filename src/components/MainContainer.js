@@ -57,7 +57,7 @@ function MainContainer() {
       <SearchBar onSort={sort} onSortCheck={handleSort} onFilter={filter} onFilterSelect={handleFilter} />
       <div className="row">
         <div className="col-8">
-          <StockContainer stocks={stocksToDisplay} onStockClick={handleAddStock}/>
+          <StockContainer stocks={stocksToDisplay} onAddStock={handleAddStock}/>
         </div>
         <div className="col-4">
           <PortfolioContainer portfolio={portfolio} onRemoveStock={handleRemoveStock}/>
